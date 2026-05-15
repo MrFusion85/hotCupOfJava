@@ -1,0 +1,26 @@
+/*
+Copyright Charlie Mitchell 2018, 2026
+*/
+
+public class Program {
+    enum Rank {
+        CAPTAIN,
+        FIRSTOFFICER,
+        ENGINEER
+    }
+    public static void main(String[] args) {
+        Rank a = Rank.FIRSTOFFICER;
+                
+        switch(a) {
+            case CAPTAIN:
+                System.out.println("Beam me up, Scotty!");
+                break;
+            case FIRSTOFFICER:
+                System.out.println("It's life, Jim. But not as we know it.");
+                break;
+            case ENGINEER:
+                System.out.println("I cann'ot break the laws of physics!");
+                break;
+        }
+    }
+}
