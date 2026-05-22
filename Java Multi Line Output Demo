@@ -1,0 +1,11 @@
+// Copyright Charlie Mitchell 2019, 2026
+
+class MyClass {
+    public static void main(String[ ] args){
+     System.out.println("Line One");
+     System.out.println("Line Two");
+     System.out.println("Line Three");
+     System.out.println("Demo");
+     System.out.println("Oi!");
+    }
+}
